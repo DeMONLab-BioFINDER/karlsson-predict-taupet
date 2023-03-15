@@ -1,7 +1,7 @@
-# tauPETregression
+# predict-tau-pet
 
 
-This repo contains code for a tau PET ML project.
+This repo contains code for a tau-PET prediction project.
 
 ## Dependencies
 
