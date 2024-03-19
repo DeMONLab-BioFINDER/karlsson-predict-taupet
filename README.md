@@ -24,7 +24,7 @@ and then simply running the command:
 python3 run.py
 ```
 
-Each ML feature selection step + ML estimator combination (currently 56) will be executed on parallell threads, each one saved as a pickle file during the run. When finished, all single pickle files are deleted and results are saved in a csv file called. "all_results_"+save_name+".csv". Running the code on a local MAC (Apple M1 Pro, 16 GB RAM) with the simulated data (100 x 33) took approximately 6 minutes. 
+Each ML feature selection step + ML estimator combination (currently 56) will be executed on parallell threads, each one saved as a pickle file during the run. When finished, all single pickle files are deleted and results are saved in a csv file called "all_results_"+save_name+".csv" (see example all_results_run1.csv). Running the code on a local MAC (Apple M1 Pro, 16 GB RAM) with the simulated data (100 x 33) took approximately 6 minutes. 
 
 Running the code with a complete dataframe (948 x 247) used in the manuscript on a computer cluster slurm system requesting a full node with 16 CPUS took approximately 8 hours. To facilitate future runs on such a system, environment.yml can be used to create a virtual environment named "ml-env" and start.sh to start a run (sbatch start.sh) with the specifics used in this work.
 
