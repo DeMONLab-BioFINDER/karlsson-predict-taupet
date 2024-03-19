@@ -14,7 +14,9 @@ The ML pipeline can be run by editing only in run.py:
 
 Thereafter, the code is runable directly from the terminal by activating the virtual environment:
 
-> source activate "ml-env"
+```console
+source activate "ml-env"
+```
 
 and then simply running the command:
 
