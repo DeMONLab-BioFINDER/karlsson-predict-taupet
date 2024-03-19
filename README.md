@@ -20,7 +20,9 @@ source activate "ml-env"
 
 and then simply running the command:
 
-> python3 run.py
+```console
+python3 run.py
+```
 
 Each ML feature selection step + ML estimator combination (currently 56) will be executed on parallell threads, each one saved as a pickle file during the run. When finished, all single pickle files are deleted and results are saved in a csv file called. "all_results_"+save_name+".csv". Running the code on a local MAC (Apple M1 Pro, 16 GB RAM) with the simulated data (100 x 33) took approximately 6 minutes. 
 
