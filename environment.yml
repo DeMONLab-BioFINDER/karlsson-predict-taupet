@@ -1,0 +1,13 @@
+# conda env create -f ml-env.yml
+name: ml-env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - pandas=1.4.4
+  - scikit-learn=1.1.2
+  - catboost=1.1.1
+  - numpy=1.23.3
+  - xgboost=1.7.3
+  - scikit-optimize=0.9.0

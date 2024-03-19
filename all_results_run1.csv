@@ -1,0 +1,57 @@
+,Best_score,Best_params,Imputation,Inclusion_type,Dim_Red,Estimator,Time
+0,-1.1308333882096169,"OrderedDict([('estimator__fit_intercept', True), ('estimator__n_jobs', 1)])",None,baseline,None,lin,0.0
+1,-0.998957139761216,"OrderedDict([('estimator__alpha', 0.9617037174551804), ('estimator__l1_ratio', 0.7949017373132644)])",None,baseline,None,elnet,0.0
+2,-0.9894634625007287,"OrderedDict([('estimator__C', 1e-05), ('estimator__kernel', 'rbf')])",None,baseline,None,SVR,0.0
+3,-1.0966588818002694,"OrderedDict([('estimator__max_depth', 2), ('estimator__n_estimators', 313), ('estimator__n_jobs', 2)])",None,baseline,None,RF,1.0
+4,-1.0835880304864385,"OrderedDict([('estimator__n_jobs', 2), ('estimator__n_neighbors', 18)])",None,baseline,None,KNN,0.0
+5,-1.0914661564521266,"OrderedDict([('estimator__eta', 0.010128830167958751), ('estimator__max_depth', 2), ('estimator__n_estimators', 57), ('estimator__n_jobs', 2), ('estimator__reg_alpha', 1.0), ('estimator__reg_lambda', 1.0)])",None,baseline,None,XGB,2.0
+6,-0.9939403802820564,"OrderedDict([('estimator__depth', 12), ('estimator__learning_rate', 0.061151638645950385), ('estimator__n_estimators', 5), ('estimator__thread_count', 2), ('estimator__verbose', False)])",None,baseline,None,CatB,1.0
+7,-1.0887036567782897,"OrderedDict([('estimator__fit_intercept', True), ('estimator__n_jobs', 1)])",None,baseline,RF_imp,lin,0.0
+8,-0.9839915260429901,"OrderedDict([('estimator__alpha', 0.8439240072143458), ('estimator__l1_ratio', 0.9240590914055687)])",None,baseline,RF_imp,elnet,0.0
+9,-0.9848716268356126,"OrderedDict([('estimator__C', 1e-05), ('estimator__kernel', 'poly')])",None,baseline,RF_imp,SVR,0.0
+10,-1.0428108781606817,"OrderedDict([('estimator__max_depth', 2), ('estimator__n_estimators', 5), ('estimator__n_jobs', 2)])",None,baseline,RF_imp,RF,1.0
+11,-1.0385382285403484,"OrderedDict([('estimator__n_jobs', 2), ('estimator__n_neighbors', 15)])",None,baseline,RF_imp,KNN,0.0
+12,-1.0730487424942186,"OrderedDict([('estimator__eta', 0.29999999999999993), ('estimator__max_depth', 2), ('estimator__n_estimators', 5), ('estimator__n_jobs', 2), ('estimator__reg_alpha', 2.9243651673214345e-05), ('estimator__reg_lambda', 1.0)])",None,baseline,RF_imp,XGB,1.0
+13,-1.0002524175485814,"OrderedDict([('estimator__depth', 2), ('estimator__learning_rate', 0.01), ('estimator__n_estimators', 5), ('estimator__thread_count', 2), ('estimator__verbose', False)])",None,baseline,RF_imp,CatB,1.0
+14,-1.0247946009996778,"OrderedDict([('estimator__fit_intercept', True), ('estimator__n_jobs', 1)])",None,baseline,f_perc,lin,0.0
+15,-0.98246431378429,"OrderedDict([('estimator__alpha', 0.965096066243948), ('estimator__l1_ratio', 0.6736902993394132)])",None,baseline,f_perc,elnet,0.0
+16,-0.9780279577456021,"OrderedDict([('estimator__C', 1e-05), ('estimator__kernel', 'rbf')])",None,baseline,f_perc,SVR,0.0
+17,-1.062139355219015,"OrderedDict([('estimator__max_depth', 2), ('estimator__n_estimators', 6), ('estimator__n_jobs', 2)])",None,baseline,f_perc,RF,1.0
+18,-1.0971760891959652,"OrderedDict([('estimator__n_jobs', 2), ('estimator__n_neighbors', 20)])",None,baseline,f_perc,KNN,0.0
+19,-1.05525426856519,"OrderedDict([('estimator__eta', 0.016696114495225865), ('estimator__max_depth', 10), ('estimator__n_estimators', 74), ('estimator__n_jobs', 2), ('estimator__reg_alpha', 1.0), ('estimator__reg_lambda', 1.0)])",None,baseline,f_perc,XGB,0.0
+20,-0.9876589332573481,"OrderedDict([('estimator__depth', 2), ('estimator__learning_rate', 0.01), ('estimator__n_estimators', 5), ('estimator__thread_count', 2), ('estimator__verbose', False)])",None,baseline,f_perc,CatB,0.0
+21,-1.109637241887311,"OrderedDict([('estimator__fit_intercept', True), ('estimator__n_jobs', 1)])",None,baseline,f_perc50,lin,0.0
+22,-0.9795988241545522,"OrderedDict([('estimator__alpha', 0.39138705836980164), ('estimator__l1_ratio', 0.7507950586929099)])",None,baseline,f_perc50,elnet,0.0
+23,-0.9849451488938428,"OrderedDict([('estimator__C', 1e-05), ('estimator__kernel', 'rbf')])",None,baseline,f_perc50,SVR,0.0
+24,-1.1098841999390274,"OrderedDict([('estimator__max_depth', 2), ('estimator__n_estimators', 5), ('estimator__n_jobs', 2)])",None,baseline,f_perc50,RF,1.0
+25,-1.075498886285846,"OrderedDict([('estimator__n_jobs', 2), ('estimator__n_neighbors', 21)])",None,baseline,f_perc50,KNN,0.0
+26,-1.085357432945853,"OrderedDict([('estimator__eta', 0.10926344656594386), ('estimator__max_depth', 2), ('estimator__n_estimators', 5), ('estimator__n_jobs', 2), ('estimator__reg_alpha', 1e-08), ('estimator__reg_lambda', 1.0)])",None,baseline,f_perc50,XGB,1.0
+27,-0.9906649090308279,"OrderedDict([('estimator__depth', 3), ('estimator__learning_rate', 0.01), ('estimator__n_estimators', 5), ('estimator__thread_count', 2), ('estimator__verbose', False)])",None,baseline,f_perc50,CatB,0.0
+28,-0.9980617596729905,"OrderedDict([('estimator__fit_intercept', True), ('estimator__n_jobs', 1)])",None,baseline,mir_perc,lin,0.0
+29,-0.9803817890059063,"OrderedDict([('estimator__alpha', 0.4008756374732472), ('estimator__l1_ratio', 0.4791467088136441)])",None,baseline,mir_perc,elnet,0.0
+30,-0.9722288533298811,"OrderedDict([('estimator__C', 0.9035973191409208), ('estimator__kernel', 'poly')])",None,baseline,mir_perc,SVR,0.0
+31,-0.9986274458057205,"OrderedDict([('estimator__max_depth', 2), ('estimator__n_estimators', 499), ('estimator__n_jobs', 2)])",None,baseline,mir_perc,RF,1.0
+32,-1.0254726233765283,"OrderedDict([('estimator__n_jobs', 2), ('estimator__n_neighbors', 15)])",None,baseline,mir_perc,KNN,0.0
+33,-1.0178739913167367,"OrderedDict([('estimator__eta', 0.013226685752253813), ('estimator__max_depth', 2), ('estimator__n_estimators', 104), ('estimator__n_jobs', 2), ('estimator__reg_alpha', 1.0), ('estimator__reg_lambda', 0.9294758187624141)])",None,baseline,mir_perc,XGB,1.0
+34,-0.988906189754674,"OrderedDict([('estimator__depth', 7), ('estimator__learning_rate', 0.01), ('estimator__n_estimators', 5), ('estimator__thread_count', 2), ('estimator__verbose', False)])",None,baseline,mir_perc,CatB,0.0
+35,-1.0424475083095746,"OrderedDict([('estimator__fit_intercept', True), ('estimator__n_jobs', 1)])",None,baseline,mir_perc50,lin,0.0
+36,-0.9860218416695774,"OrderedDict([('estimator__alpha', 0.8313826752851341), ('estimator__l1_ratio', 0.9816575064446822)])",None,baseline,mir_perc50,elnet,0.0
+37,-0.9882861417749073,"OrderedDict([('estimator__C', 1.0009672711132384e-05), ('estimator__kernel', 'rbf')])",None,baseline,mir_perc50,SVR,0.0
+38,-1.0587800516915367,"OrderedDict([('estimator__max_depth', 2), ('estimator__n_estimators', 380), ('estimator__n_jobs', 2)])",None,baseline,mir_perc50,RF,1.0
+39,-0.9879515662643247,"OrderedDict([('estimator__n_jobs', 2), ('estimator__n_neighbors', 26)])",None,baseline,mir_perc50,KNN,0.0
+40,-1.0597548061158282,"OrderedDict([('estimator__eta', 0.01), ('estimator__max_depth', 2), ('estimator__n_estimators', 118), ('estimator__n_jobs', 2), ('estimator__reg_alpha', 1.0), ('estimator__reg_lambda', 1.0)])",None,baseline,mir_perc50,XGB,1.0
+41,-0.978017385192911,"OrderedDict([('estimator__depth', 12), ('estimator__learning_rate', 0.01), ('estimator__n_estimators', 5), ('estimator__thread_count', 2), ('estimator__verbose', False)])",None,baseline,mir_perc50,CatB,0.0
+42,-1.0051038039837548,"OrderedDict([('estimator__fit_intercept', True), ('estimator__n_jobs', 1)])",None,baseline,RFE,lin,0.0
+43,-0.9769665729262197,"OrderedDict([('estimator__alpha', 0.9084942494789673), ('estimator__l1_ratio', 0.6937004958776295)])",None,baseline,RFE,elnet,0.0
+44,-0.9835876883130027,"OrderedDict([('estimator__C', 0.006892786486899902), ('estimator__kernel', 'rbf')])",None,baseline,RFE,SVR,0.0
+45,-1.0197606611308925,"OrderedDict([('estimator__max_depth', 2), ('estimator__n_estimators', 8), ('estimator__n_jobs', 2)])",None,baseline,RFE,RF,2.0
+46,-1.0402740393769143,"OrderedDict([('estimator__n_jobs', 2), ('estimator__n_neighbors', 24)])",None,baseline,RFE,KNN,0.0
+47,-1.016661650846625,"OrderedDict([('estimator__eta', 0.29999999999999993), ('estimator__max_depth', 2), ('estimator__n_estimators', 5), ('estimator__n_jobs', 2), ('estimator__reg_alpha', 0.24183547123634674), ('estimator__reg_lambda', 1.0)])",None,baseline,RFE,XGB,2.0
+48,-0.9751401875171133,"OrderedDict([('estimator__depth', 2), ('estimator__learning_rate', 0.04516156620072328), ('estimator__n_estimators', 5), ('estimator__thread_count', 2), ('estimator__verbose', False)])",None,baseline,RFE,CatB,1.0
+49,-1.0422213615177047,"OrderedDict([('estimator__fit_intercept', True), ('estimator__n_jobs', 1)])",None,baseline,RFE50,lin,0.0
+50,-0.9738408453351877,"OrderedDict([('estimator__alpha', 0.42239700141954034), ('estimator__l1_ratio', 0.28641889664902687)])",None,baseline,RFE50,elnet,0.0
+51,-0.9768945494390746,"OrderedDict([('estimator__C', 1e-05), ('estimator__kernel', 'rbf')])",None,baseline,RFE50,SVR,0.0
+52,-1.041614299883017,"OrderedDict([('estimator__max_depth', 2), ('estimator__n_estimators', 500), ('estimator__n_jobs', 2)])",None,baseline,RFE50,RF,2.0
+53,-1.0274881752415006,"OrderedDict([('estimator__n_jobs', 2), ('estimator__n_neighbors', 19)])",None,baseline,RFE50,KNN,0.0
+54,-1.0355683034501135,"OrderedDict([('estimator__eta', 0.18760624332629455), ('estimator__max_depth', 2), ('estimator__n_estimators', 5), ('estimator__n_jobs', 2), ('estimator__reg_alpha', 1.0), ('estimator__reg_lambda', 1.0)])",None,baseline,RFE50,XGB,1.0
+55,-0.9824071242352899,"OrderedDict([('estimator__depth', 10), ('estimator__learning_rate', 0.01), ('estimator__n_estimators', 5), ('estimator__thread_count', 2), ('estimator__verbose', False)])",None,baseline,RFE50,CatB,1.0
