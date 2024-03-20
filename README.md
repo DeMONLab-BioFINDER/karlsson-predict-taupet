@@ -49,4 +49,8 @@ run_ML_pipeline.py builds and trains machine learning pipelines in a 10-fold cro
 
 fns.py contains functions that specifies the hyperparameters to be tuned and how many samples during Bayesian optimization, both for regression and classification tasks. 
 
+## Evaluating and plotting the results
+
+In Evaluation.ipynb, the results after running the ML pipeline can be visualized and evaluated. This include plotting comparisons between the input feature block combinations and ML estimators, scatter plots and performance metrics of the true versus predicted outcome data, and a shap feature contribution analysis.
+
 
