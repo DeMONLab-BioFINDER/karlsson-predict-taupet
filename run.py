@@ -1,3 +1,5 @@
+#Author: Linda Karlsson, 2024
+
 import pandas as pd
 import fns as fns
 import run_ML_pipeline as rmlp
