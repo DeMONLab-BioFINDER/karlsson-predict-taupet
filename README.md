@@ -38,6 +38,8 @@ Running the code with a complete dataframe (948 x 247) used in the manuscript on
   - xgboost=1.7.3
   - scikit-optimize=0.9.0
   - shap=0.41.0
+  - matplotlib=3.5.3
+  - seaborn=0.12.0
 
 ## Overview of .py files
 
