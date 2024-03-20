@@ -1,3 +1,5 @@
+# Author: Linda Karlsson, 2024
+
 from itertools import product
 import pandas as pd
 import numpy as np
@@ -162,6 +164,15 @@ def get_bays_opt(classifier):
 
 
 def preprocess_raw_inputs(all_inputs_raw):
+    """
+    Pre-processes all_input data by dropping unnecessary columns and making the score positive.
+
+    Inputs:
+        - all_inputs_raw (List): List of pandas DataFrames with output file all_result from run.py.
+
+    Outputs:
+        - all_inputs (List): List of processed version of DataFrames.
+    """
     all_inputs=[]
     
     for df_input,i in zip(all_inputs_raw,range(1,8)):
