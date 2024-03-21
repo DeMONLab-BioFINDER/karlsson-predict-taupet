@@ -1,3 +1,5 @@
+Author: Linda Karlsson, 2024
+
 # predict-tau-pet
 
 This repo contains code that was used in a tau-PET machine learning (ML) prediction project [add manuscript link], including:
