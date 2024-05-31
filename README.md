@@ -15,7 +15,7 @@ The ML pipeline can be run by editing a few lines in run.py:
 - specify what input feature block combination you want to test (will be a concatenated list of the input feature block lists you want to use)
 - if needed, also edit the variable names in the input feature blocks so that they match the ones in the dataframe.
 
-Thereafter, the code is runable directly from the terminal by activating the virtual environment (environment.yml can be used to create a virtual environment named "ml-env"):
+Thereafter, the code is runable directly from the terminal by activating a virtual environment (environment.yml can be used to create a virtual environment named "ml-env"):
 
 ```console
 source activate "ml-env"
