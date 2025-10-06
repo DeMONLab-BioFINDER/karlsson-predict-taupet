@@ -2,7 +2,7 @@ Author: Linda Karlsson, 2024
 
 # predict-tau-pet
 
-This repo contains code that was used in a tau-PET machine learning (ML) prediction project [add manuscript link], including:
+This repo contains code that was used in a tau-PET machine learning (ML) prediction project https://doi.org/10.1002/alz.14600, including:
 - A rigourous ML pipeline that in a combined grid-search/Baysian optimization setting tests hyperparameter-tunes and evaluates different estimators and feature selection methods for a certain ML regression/classification task.
 - Notebooks to plot the results.
 
